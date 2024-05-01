@@ -1,4 +1,10 @@
-/* styles.css */
+/* styles-dark.css */
+
+/* Fundo escuro para o corpo */
+body {
+    background-color: #1f1f1f;
+    color: #fff;
+}
 
 /* Estilize o cabeçalho */
 header {
@@ -45,7 +51,7 @@ nav ul li a:hover {
 #filmes, #series {
     padding: 2rem;
     /* Adicione um fundo branco com sombra sutil para as seções de filmes e séries */
-    background-color: #fff;
+    background-color: #333;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 2rem; /* Adicione um espaçamento na parte inferior para separar as seções */
@@ -53,7 +59,7 @@ nav ul li a:hover {
 
 /* Estilize os títulos das seções de filmes e séries */
 h2 {
-    color: #333;
+    color: #fff;
     margin-bottom: 1rem;
 }
 
