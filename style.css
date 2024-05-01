@@ -10,6 +10,12 @@ header {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilize o nome do site */
+header h1 {
+    font-size: 2.5rem; /* Ajuste o tamanho da fonte conforme necessário */
+    margin: 0; /* Remova as margens padrão */
+}
+
 /* Estilize o menu de navegação */
 nav ul {
     list-style: none;
