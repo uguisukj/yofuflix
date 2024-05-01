@@ -4,6 +4,7 @@
 body {
     background-color: #1f1f1f;
     color: #fff;
+    font-family: 'Roboto', sans-serif; /* Adicione a fonte Roboto */
 }
 
 /* Estilize o cabeçalho */
@@ -20,6 +21,7 @@ header {
 header h1 {
     font-size: 2.5rem; /* Ajuste o tamanho da fonte conforme necessário */
     margin: 0; /* Remova as margens padrão */
+    font-family: 'Roboto', sans-serif; /* Adicione a fonte Roboto */
 }
 
 /* Estilize o menu de navegação */
@@ -61,6 +63,7 @@ nav ul li a:hover {
 h2 {
     color: #fff;
     margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif; /* Adicione a fonte Roboto */
 }
 
 /* Estilize os links de filmes e séries */
