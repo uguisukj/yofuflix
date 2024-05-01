@@ -6,12 +6,16 @@ header {
     color: #fff;
     padding: 1rem;
     text-align: center;
+    /* Adicione uma sombra sutil para separar o cabeçalho do resto da página */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilize o menu de navegação */
 nav ul {
     list-style: none;
     padding: 0;
+    /* Centralize os itens do menu horizontalmente */
+    text-align: center;
 }
 
 nav ul li {
@@ -22,11 +26,40 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
+    /* Adicione uma transição suave para o efeito hover */
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    /* Mude a cor do texto ao passar o mouse sobre os itens do menu */
+    color: #ffd700; /* Amarelo */
 }
 
 /* Estilize as seções de filmes e séries */
 #filmes, #series {
     padding: 2rem;
+    /* Adicione um fundo branco com sombra sutil para as seções de filmes e séries */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem; /* Adicione um espaçamento na parte inferior para separar as seções */
 }
 
-/* Adicione mais estilos conforme necessário */
+/* Estilize os títulos das seções de filmes e séries */
+h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Estilize os links de filmes e séries */
+.movie-link, .series-link {
+    text-decoration: none;
+    color: #007bff; /* Azul */
+    /* Adicione uma transição suave para o efeito hover */
+    transition: color 0.3s ease;
+}
+
+.movie-link:hover, .series-link:hover {
+    /* Mude a cor do texto ao passar o mouse sobre os links de filmes e séries */
+    color: #0056b3; /* Azul mais escuro */
+}
