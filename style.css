@@ -1,0 +1,32 @@
+/* styles.css */
+
+/* Estilize o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Estilize o menu de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilize as seções de filmes e séries */
+#filmes, #series {
+    padding: 2rem;
+}
+
+/* Adicione mais estilos conforme necessário */
